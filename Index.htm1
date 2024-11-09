@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الموقع الشخصي - Hany Shaker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #0056b3;
+        }
+        a {
+            text-decoration: none;
+            color: #0056b3;
+        }
+        .social-links {
+            margin: 20px 0;
+        }
+        .social-links a {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 5px 0;
+            background-color: #f9f9f9;
+            color: #333;
+            transition: background-color 0.3s;
+        }
+        .social-links a:hover {
+            background-color: #e6f0ff;
+        }
+        .social-links img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+        .whatsapp {
+            margin: 20px 0;
+        }
+        .profile-picture {
+            margin: 20px auto;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="profile-picture">
+            <img src="YOUR_IMAGE_LINK_HERE" alt="الصورة الشخصية">
+        </div>
+
+        <h1>مرحبًا بكم في موقعي الشخصي!</h1>
+        <p>تابعني وتواصل معي عبر منصات التواصل الاجتماعي:</p>
+
+        <div class="social-links">
+            <a href="https://www.tiktok.com/@hany_shaker50?_t=8rFhIDBFS0O&_r=1" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/TikTok_logo_%282021%29.svg" alt="TikTok"> تيك توك
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100008425928417&mibextid=LQQJ4d" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook"> فيس بوك
+            </a>
+            <a href="https://www.instagram.com/haany_shaker?igshid=Y2Q4em5xOXFwOWFq" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"> إنستجرام
+            </a>
+            <a href="https://t.me/@Eng_HaAany" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram"> تليجرام
+            </a>
+            <a href="https://snapchat.com/t/VHapmeyu" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Snapchat_logo.svg/1200px-Snapchat_logo.svg.png" alt="Snapchat"> سناب شات
+            </a>
+            <a href="https://twitter.com/HaAany777" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/X_logo_2023.svg" alt="X"> منصة X
+            </a>
+            <a href="https://haany7.sarhne.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Icon_Sarhne.png" alt="Sarhne"> صارحني
+            </a>
+        </div>
+
+        <div class="whatsapp">
+            <p>للتواصل عبر الواتساب:</p>
+            <a href="https://wa.me/201012401396" target="_blank" style="color: green; font-weight: bold;">+201012401396</a>
+        </div>
+    </div>
+
+</body>
+</html>
